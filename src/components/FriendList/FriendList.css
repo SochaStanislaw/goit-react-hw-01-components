@@ -1,0 +1,36 @@
+.friendList {
+    /* outline: red solid 2px; */
+    margin: 25px auto;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 4px 28px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    border-radius: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.item {
+    /* outline: rgb(20, 161, 43) 2px solid; */
+    list-style: none;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.avatarFriend {
+    width: 48px;
+}
+
+.nameFriend {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
